@@ -3,8 +3,7 @@
     "homepage": "http://local-composer",
     "repositories": [
     	{ "type": "git", "url": "https://github.com/composer/installers" }, 
-
-        { "type": "git", "url": "https://github.com/tokmak/composer-test-package" },
+        { "type": "git", "url": "https://github.com/tokmak/composer-test-package" }
     ],
     "require-all": true
 }

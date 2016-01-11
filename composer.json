@@ -18,26 +18,17 @@
         }
     ],
     "bin": ["bin/satis"],
-    "require": {
-        "php": "^5.3.2 || ^7.0",
-        "composer/composer": "1.0.*@dev",
-        "twig/twig": "^1.7",
-        "symfony/console": "^2.1"
-    },
+
+    "require": { 
+        "php": ">=5.3.2", 
+        "composer/composer": "1.0.*@dev", 
+        "twig/twig": "~1.7", 
+        "symfony/console": "~2.1@dev", 
+        "symfony/process": "@dev"
+    }, 
+
     "autoload": {
         "psr-0": { "Composer\\Satis": "src/" }
     },
-    "autoload-dev": {
-        "psr-0": { "Composer\\Test\\Satis": "tests/" }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.5 || ^5.0.5",
-        "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0",
-        "mikey179/vfsStream": "^1.6"
-    },
-    "config": {
-        "platform": {
-            "php": "5.3.3"
-        }
-    }
+    "minimum-stability" : "beta"
 }

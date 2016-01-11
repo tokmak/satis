@@ -22,9 +22,6 @@
             {% if description %}
                 <p>{{ description|raw }}</p>
             {% endif %}
-            <div id="lastupdate">
-                Last updated: <time datetime="{{ "now"|date(constant('\DateTime::ISO8601')) }}">{{ "now"|date(constant('\DateTime::RSS')) }}</time>
-            </div>
         </div>
         <div id="bd">
             <div class="yui-g">
@@ -131,7 +128,7 @@
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }}</small></p>
         </div>
     </div>
 
@@ -173,7 +170,7 @@
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('{{ "now"|date(constant('\DateTime::ISO8601')) }}').fromNow());
+            //$lastUpdate.text(moment('').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
