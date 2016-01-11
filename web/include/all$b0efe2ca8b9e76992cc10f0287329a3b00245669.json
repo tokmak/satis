@@ -1,0 +1,90 @@
+{
+    "packages": {
+        "digital-spin/composer-test-package-plugin": {
+            "1.0": {
+                "name": "digital-spin/composer-test-package-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tokmak/composer-test-package",
+                    "reference": "74974cd015a056bee1a90dbcabec28138b43322b"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.2"
+                },
+                "time": "2016-01-11 05:43:09",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Foo Bar",
+                        "email": "optional@email-address.com",
+                        "homepage": "http://domain.com/"
+                    }
+                ],
+                "description": "Plugin description",
+                "homepage": "http://domain.com/plugin-url/"
+            },
+            "2.0": {
+                "name": "digital-spin/composer-test-package-plugin",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tokmak/composer-test-package",
+                    "reference": "74974cd015a056bee1a90dbcabec28138b43322b"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.2"
+                },
+                "time": "2016-01-11 05:43:09",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Foo Bar",
+                        "email": "optional@email-address.com",
+                        "homepage": "http://domain.com/"
+                    }
+                ],
+                "description": "Plugin description",
+                "homepage": "http://domain.com/plugin-url/"
+            },
+            "dev-master": {
+                "name": "digital-spin/composer-test-package-plugin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tokmak/composer-test-package",
+                    "reference": "74974cd015a056bee1a90dbcabec28138b43322b"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.2"
+                },
+                "time": "2016-01-11 05:43:09",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Foo Bar",
+                        "email": "optional@email-address.com",
+                        "homepage": "http://domain.com/"
+                    }
+                ],
+                "description": "Plugin description",
+                "homepage": "http://domain.com/plugin-url/"
+            }
+        }
+    }
+}
